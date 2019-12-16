@@ -1,6 +1,6 @@
-require('dotenv').config(); 
+// require('dotenv').config(); 
 
-module.exports = {
-    USER: "process.env.USER", 
-    PASS: "process.env.PASSWORD"
-}
+// module.exports = {
+//     USER: "process.env.USER", 
+//     PASS: "process.env.PASSWORD"
+// }

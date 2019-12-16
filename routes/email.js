@@ -3,7 +3,7 @@ const router = express.Router();
 const nodemailer = require("nodemailer");
 const creds = require('../config/configCreds');
 const db = require("../models/email");
-require('dotenv').config();
+require('dotenv').config(); 
 
 router.get('/', function (req, res) {
   res.json({
@@ -21,8 +21,8 @@ router.get('/', function (req, res) {
 var transport = {
   host: 'smtp.gmail.com',
   auth: {
-    user: creds.USER,
-    pass: creds.PASS
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD
   }
 } 
 
