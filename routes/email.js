@@ -3,7 +3,7 @@ const router = express.Router();
 const nodemailer = require("nodemailer");
 const creds = require('../config/configCreds');
 const db = require("../models/email");
-
+require('dotenv').config();
 
 router.get('/', function (req, res) {
   res.json({
