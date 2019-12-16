@@ -1,0 +1,26 @@
+/* --------------------Contact Page--------------------- */
+.contactPage{
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 8.2%;
+    
+
+}
+.contact{
+    text-align: center; 
+    font-size: 65px;
+    margin-top: 25px;
+   
+}
+
+.contactBlurb{
+    display: block;
+    text-align: center; 
+    font-size: 16px;
+}
+.form-control{
+    border: 1px solid darkorange;
+    border-radius: 8px;
+}
+.contact-page-layout{
+    background-color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,140 @@
+
+.homePage {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+#hero{
+    background-image: url('../../img/bkImg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:  no-repeat;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 945px; 
+    z-index: 10;
+    width: 100%;
+
+} 
+#hero-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+} 
+.bordered {
+    width: 181px;
+    height: 181px;
+    padding: 0px;
+    padding-top: 6px;
+    border: 5px solid darkorange;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+
+  }
+  
+
+
+.logo{
+    font-family: 'Rubik', sans-serif;  
+    font-size: 85px; 
+    margin-bottom: -1.5rem;
+    margin-left: 20px;
+    color: aliceblue;
+    
+}
+.logo1{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.Logo2{
+    margin-top: -75px;
+    margin-left: 130px;
+}
+
+.A{
+    text-align: center;
+    padding: 0px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.box :first-child {
+    align-self: center;
+}
+.layoutState{
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif; 
+    color: aliceblue;
+    margin-top: -62px;
+}
+@media only screen and (min-width: 1304px) {
+    
+    .A{
+        text-align: center;
+        padding: 0px;
+        margin-top: 2px;
+        color: aliceblue;
+    }
+    
+    .layoutState{
+        font-size: 50px;
+        font-family: 'Rubik', sans-serif; 
+        color: aliceblue;
+    }
+    .layoutState2{
+        font-family: 'Fugaz One', cursive;
+        line-height: 2rem;
+        margin-top: 10px;
+        color: aliceblue;
+        font-size: 30px;
+    }
+    
+    .imgProfile{
+    border-radius: 50%!important;
+    border: 5px solid darkorange;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  } 
+  @media only screen and (min-width: 300px) {
+  .layoutState{
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif; 
+    color: aliceblue;
+    margin-top: 0px;
+  }
+  }
+.layoutState2{
+    font-family: 'Fugaz One', cursive;
+    line-height: 2rem;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.box{
+    align-content: center;
+}
+.imgProfile{
+border-radius: 50%!important;
+border: 5px solid darkorange;
+display: block;
+margin: auto;
+}

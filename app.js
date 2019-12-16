@@ -1,38 +1,46 @@
 require("dotenv").config();
 
 const express = require('express');
-const mongoose = require('mongoose');
-const apiRoutes = require("./routes/api-routes")
-
-
 const app = express();
+const path = require('path');
 const port = process.env.PORT || 8082;
+// const apiRoutes = require("./routes/api-routes");
+// const ProjectRoutes = require("./routes/project-routes/projects");
+// const nodemailer = require('nodemailer')
 
-// Express Middleware
-
-const bodyParser = require('body-parser');
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 // Mongoose Connection
 
 const db = require("./config/connection.js");
 
-// app.use("/", (req, res) => {
-//   res.sendFile(__dirname + "/index.html");
-// });
-app.get('/', (req, res) => res.send('Hello World with Express'));
-
 db(process.env.MONGODB_URI || "mongodb://localhost/yasiinPort");
+   
+// Body Parser Middleware
+app.use(express.static(path.join(__dirname, '../my-portfolio')));
+ 
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
-// app.post("/sendemail", (req, res) => {
-//   var myData = new emailModel(req.body);
-//   myData.save()   
-//     .then(item => {
-//       res.send("item saved to database");
-//     })
-//     .catch(err => {
-//       res.status(400).send("unable to save to database");
-//     });
-// });
-app.use('/api', apiRoutes)
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(require("morgan")("dev"));
+
+app.use(express.static("app/build"));
+
+app.use(require("./routes/email"));
+
+// app.use(require("./routes/api-routes"));
+// app.use(require("./routes/project-routes/projects"));
+
+
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname + "/my-portfolio/build/index.html"));
+  });
+
+app.get('/', (req, res) => res.send('Hello World with Express')); 
+
+
+// app.use('/api', apiRoutes)
+// app.use('/api/project-routes', ProjectRoutes)
+
 app.listen(port, () => console.log(`Server running on port ${port}`));

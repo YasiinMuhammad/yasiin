@@ -1,0 +1,136 @@
+.portfolioPage{
+    margin-top: 0px;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:  no-repeat;
+    position: relative;
+    /* background-image: url('../img/bkImg.jpg'); */
+   
+}
+.profileImg {
+    overflow: hidden;
+    width: 280px;
+    height: 280px;
+    float: left;
+    align-content: center;
+
+}
+
+.project-image{
+    overflow: hidden;
+    width: 280px;
+    height: 280px;
+    align-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0%;
+    z-index: -1;
+    opacity: ;
+
+    
+}
+.portIMGbox{
+    overflow: hidden;
+    width: 280px;
+    height: 280px;
+  
+    
+}
+
+.portfolioContainer, .portfolioContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolioContainer{
+    margin-top: 75px;
+    position: relative;
+    z-index: 1;
+}
+
+.profileImg{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: 1s ease;
+    padding: 0px;
+    display: block;
+    z-index: -1;
+    
+  }
+
+  
+.profileImg:hover {
+    opacity: 0.4;
+  
+  }
+ 
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .portfolioLink .portfolioList{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+   
+  }
+  .Bo{
+    
+      margin-bottom: -9%;
+      margin-top: 0%;
+      margin-left: 4%;
+      opacity: 0;
+      
+
+  }
+  .Bo{
+    transform: translateY(80px);
+    margin-left: 20%;
+    
+  }
+
+  .Box1{
+    margin-bottom: -9%;
+      margin-top: 0%;
+      margin-left: 4%;
+     
+  }
+
+  a{
+      color: hsl(64, 100%, 50%);
+  }
+  .profileImg-wrapper-inner{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 1;
+      bottom: 0;
+      padding: 15px 20px;
+      transition: 0.1s;
+      /* background: rgba(32, 32, 32, 0.4); */
+      margin: 0%;
+      text-align:  ;
+      color: azure;
+      opacity: 1;
+      /* display: flex; */
+      
+  }
+
+  .profileImg-wrapper-inner .profileImg-wrapper{
+      top: 0;
+  }

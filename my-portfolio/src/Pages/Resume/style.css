@@ -1,0 +1,242 @@
+/* #resume-page{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:  no-repeat;
+    z-index: 10;
+    height: 9000px;
+    width: auto;
+    background-image: url('./img/2019-10-31-13-18-43.png');
+} */
+/* #resume-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    height: 9000px;
+    width: auto;
+} 
+
+.grid-container {
+    display: grid;
+    grid: 125px / auto ;
+    grid-gap: 10px;
+    padding: 10px;
+    
+  }
+  .page-head{
+      text-align: center;
+      font-family: 'Fugaz One', cursive; 
+      font-size: 45px;
+      margin-top: 5px;
+      color: aliceblue;
+  }
+
+  .bordered-resume {
+    width: 325px;
+    height: 75px;
+    padding: 0px;
+    padding-top: 6px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    margin-top: 15px;
+  }
+
+.grid-container { grid-area: header; }
+.grid-sub-header{grid-area: sub-header;}
+.employment { grid-area: main; }
+.education-skills { grid-area: right-main; }
+.sub-main { grid-area: right-main; }
+footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'sub-header'
+    'main right-main'
+    'sub-main '
+    'footer';
+  grid-gap: 10px;
+  
+  padding: 10px;
+}
+
+.education-skills{
+  font-family: 'Fugaz One', cursive; 
+  margin-top: 2275px;
+  color: aliceblue;
+  height: 600px;
+}
+
+.employment{
+  
+  font-family: 'Fugaz One', cursive; 
+  margin-top: 5px;
+  color: aliceblue;
+  height: 600px;
+
+}
+footer{
+  position: absolute; 
+  bottom: 0;
+    
+}
+.grid-sub-header{
+  text-align: center;
+  font-family: 'Fugaz One', cursive; 
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: aliceblue;  
+}
+.css-vcfpfv{
+  background-color: white !important;
+  outline: 10px solid darkorange !important;
+}
+.grid-row-sub-header{
+  text-align: center;
+  
+}
+.bordered-skills {
+  width: 325px;
+  height: 375px;
+  padding: 0px;
+  padding-top: 0px;
+  border: 1px solid darkorange;
+  border-radius: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: aliceblue;
+  margin-top: 5px;
+}
+.skills-head{
+  text-align: center;
+  font-family: 'Fugaz One', cursive; 
+  margin-top: 5px;
+  color: aliceblue;
+}
+.fa-react, .fa-node, .fa-html5, .fa-css3-alt, .fa-js{
+font-size: 85px;
+margin: 5%
+
+} */
+
+.header-box{
+  height: 320px;
+  background-image: url('./img/2019-12-13-15-43-26.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat:  no-repeat;
+}
+
+.resume-title{
+  position: relative;
+  max-width: 1000px;
+  padding-top: 3rem;
+  font-family: 'Fugaz One', cursive; 
+  color: aliceblue;
+}
+
+.wrapper{
+  position: relative;
+}
+article{
+ display: block;
+ margin-top: -180px;
+}
+.inner-wrapper{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  background-color: White;
+
+  box-shadow: 0 1rem 4rem rgba(0,0,0,0.175) !important;
+  box-sizing: border-box;
+}
+.resume-header{
+  height:220px;
+  background-color: grey;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.resume-img{
+  padding-top: 15px;
+  padding-right: 0px;
+}
+
+.resume-discription{
+  padding-top: 15px;
+  padding-left: 0px;
+}
+.email-button{
+  padding-left: 0px;c
+}
+.resume-body{
+  padding: 3rem;
+  padding-bottom: 1.5rem !important;
+
+}
+.career-summary{
+  position: relative;
+  font-family: 'Fugaz One', cursive; 
+  text-transform: capitalize;
+  font-size: 12px !important;
+  text-align: left;
+  width: 100%;
+  
+}
+.career-summary:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.5px;
+  background: #8d9aad;
+}
+.career-body{
+  margin-top: 1rem;
+}
+.experience-body{
+  padding-left: 3rem;
+  /* padding-right: 0rem;  */
+  font-family: 'Fugaz One', cursive; 
+  box-sizing: border-box;
+  width: 1000px;
+  padding-bottom: 2rem;
+}
+.work-experience{
+  padding-left: 0px !important;
+}
+.work-experience:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 90%;
+  height: 1.5px;
+  background: #8d9aad;
+}
+.work-row{
+  height: 200px;
+}
+
+.skills{
+  font-family: 'Fugaz One', cursive; 
+  padding-left: 0px !important;
+}
+.skills:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.5px;
+  background: #8d9aad;
+}

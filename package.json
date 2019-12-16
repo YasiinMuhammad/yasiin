@@ -4,8 +4,10 @@
   "description": "Portfolio MERN",
   "main": "app.js",
   "scripts": {
+    "dev": "concurrently \"npm run app\" \"npm run client\"",
+    "client": "npm start --prefix my-portfolio",
     "start": "node app.js",
-    "app": "nodemon app.js",
+    "app": "node app.js",
     "test": "mocha"
   },
   "repository": {
@@ -21,12 +23,16 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
     "config": "^3.2.2",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "mocha": "^6.2.1",
     "mongoose": "^5.7.3",
-    "nodemailer": "^6.3.0",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.4.0",
+    "nodemailer-mailgun-transport": "^1.4.0",
+    "react-timeline-scribble": "^1.0.14",
     "validation": "0.0.1"
   },
   "devDependencies": {

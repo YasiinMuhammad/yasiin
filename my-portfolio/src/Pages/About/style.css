@@ -1,0 +1,24 @@
+
+#about{
+    background-image: url('./2019-10-30-12-03-50.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:  no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: auto; 
+    z-index: 10;
+    width: 100%;
+
+} 
+#about-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+} 

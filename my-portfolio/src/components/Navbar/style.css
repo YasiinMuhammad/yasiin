@@ -1,0 +1,40 @@
+.container {
+    max-width: 720px;
+}
+
+
+.nav-link {
+    color: darkorange !important;
+    padding-left: .5rem;
+    font-family: 'Fugaz One', cursive;
+    font-size: 25px;
+    
+}
+.navbar {
+    background-color: transparent !important;
+    
+  }
+
+  .navbar-expand{
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 45px;
+}
+
+@media only screen and (max-width: 750px) {
+    
+    .navbar-expand{
+
+        padding-top: 45px;
+        flex-direction: column;
+        flex-flow: wrap;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px;    
+    }
+    .nav-contact{
+        margin: unset;
+    }
+
+}
+

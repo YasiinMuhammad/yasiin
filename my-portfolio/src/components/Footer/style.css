@@ -1,0 +1,16 @@
+.Foot{    
+        width: 100%; 
+        background-color: #000; 
+        color: #fff; 
+        position: relative; 
+        padding-top:20px; 
+        padding-bottom:10px; 
+        text-align:center; 
+        font-size:10px; 
+        font-weight:bold;
+}
+.fa-linkedin-in, .fa-twitter{
+
+    padding-left: .3rem;
+    color: aliceblue;
+}

@@ -1,0 +1,67 @@
+
+  
+  .boxes, .profileImg-wrapper-inner, .ril__builtinButton {
+  height: 17.6vw;
+  position: relative;
+  }
+  .boxes{
+    padding: 0%;
+  }
+
+  .box2{
+    border: 10px;
+    border-style: solid;
+    height: 16.4vw;
+    margin-right: 50%;
+    overflow: hidden ;
+    padding: 15px 20px;
+    margin-bottom: 2.2%
+   
+    
+    
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    /* content: ""; */
+    display: table;
+    clear: both;
+  }
+  .column1{
+    float: left; 
+    width: 50%;
+  }
+  .img{
+    max-width: 70%;
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 50%;
+    border: 10px;
+    border-style: solid;
+    height: 16.4vw;
+  }
+  .p-img{
+    font-size: .80vw;
+    font-style: oblique;
+    color: aliceblue;
+  }
+  .fig{
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 40px;
+      margin-inline-end: 40px;
+      margin: 0 0 .60rem;
+  }
+  .column-head{
+    margin-top: 6%;
+    margin-bottom: 13%;
+  }
+  .ril__builtinButton{
+    align-content: center;
+  }
