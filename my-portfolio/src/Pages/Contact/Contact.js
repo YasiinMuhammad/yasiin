@@ -22,15 +22,7 @@ class Contact extends React.Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-    // handleClose = () => {
-    //     this.setState({ show: false });
-    //   }
-    
-    //   handleShow = () => {
-    //     this.setState({ show: true });
-    //     console.log("running")
-    //   }
-    
+  
 
     handleChange = e => {
         this.setState({[e.target.name]: e.target.value });
@@ -59,6 +51,7 @@ class Contact extends React.Component {
 
         return (
                 <div className="contact-page-layout">
+                    <div className="contact-page-layout-overlay">
                     <ButtonAppBar />
                     <Container className="contactPage">
                         <h1 className="contact">
@@ -96,6 +89,7 @@ class Contact extends React.Component {
                         </Row>
                     </Container>
                     <Footer />
+                </div>
                 </div>
         );
     }

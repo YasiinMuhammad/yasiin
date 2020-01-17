@@ -8,7 +8,7 @@ import LightboxPage from "../../components/Cards/Images";
 function Portfolio() {
     return (
         <React.Fragment>
-          <div className="contact-page-layout">
+          <div className="portfolio-page-layout">
           <ButtonAppBar />
         <LightboxPage />
         <Footer/>

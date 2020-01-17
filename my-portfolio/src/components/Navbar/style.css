@@ -1,13 +1,15 @@
 .container {
     max-width: 720px;
+    
 }
 
 
 .nav-link {
-    color: darkorange !important;
+    color: rgb(245, 241, 241) !important;
     padding-left: .5rem;
-    font-family: 'Fugaz One', cursive;
+    font-family: serif !important;
     font-size: 25px;
+    font-weight: bold;
     
 }
 .navbar {

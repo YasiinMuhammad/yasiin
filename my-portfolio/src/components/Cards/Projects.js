@@ -6,9 +6,9 @@ const Projects = (props) => {
     return (
         <div>
             
-            <p className="p-img">Project: {props.project}</p>
-            <p className="p-img">Discription: {props.discription}</p>
-            <p className="p-img">Technology: {props.techUsed}</p>
+            <h3 > {props.project}</h3>
+            <p className="portfolio-discription">{props.discription}</p>
+            <p className="portfolio-discription">{props.techUsed}</p>
             {props.link}
            
         </div>

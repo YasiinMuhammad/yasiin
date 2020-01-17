@@ -2,25 +2,39 @@
 .contactPage{
     font-family: 'Fugaz One', cursive;
     margin-bottom: 8.2%;
-    
-
 }
 .contact{
     text-align: center; 
     font-size: 65px;
     margin-top: 25px;
-   
+    color: aliceblue;  
 }
 
 .contactBlurb{
     display: block;
     text-align: center; 
     font-size: 16px;
+    color: aliceblue;
 }
+
 .form-control{
     border: 1px solid darkorange;
     border-radius: 8px;
 }
 .contact-page-layout{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url('../Contact/img/2020-01-14-14-14-47.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:  no-repeat;
+    position: relative;
+    
 }
+.contact-page-layout-overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+} 
